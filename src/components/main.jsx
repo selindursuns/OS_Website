@@ -4,7 +4,7 @@ import Hero from "./hero"
 
 const main = () => {
     return (
-     <div className="bg-black">
+     <div className="bg-white">
          <Nav/>
          <Hero/>
 

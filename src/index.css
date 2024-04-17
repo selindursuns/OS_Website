@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.hover-effect:hover {
+  color: #39FF14; 
+  font-weight: bold; 
+}
+
+.prototype-landing {
+  font-family: 'Arial', sans-serif; /* Assuming a sans-serif font */
+  background-color: #ffffff; /* White background */
+  color: #000000; /* Black text */
+  text-align: left;
+  font-size: 40px;
+  padding: 40px; /* Space around the content */
+  list-style-type: none; /* No bullets for lists */
+}
+
+.prototype-landing a:hover {
+   color:#39FF14; /* Underline on hover */
+}
+
+.prototype-landing .footer {
+  font-size: 20px; /* Smaller text for the footer */
+  margin-top: 20px; /* Space above the footer */
+}
+
+@media (max-width: 768px) {
+  .prototype-landing {
+    padding: 10px;
+  }
+
+  .prototype-landing h1 {
+    font-size: 20px;
+  }}
